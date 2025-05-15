@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Site de Apostas - Vermelho</title>
+
+<!-- Link para o arquivo CSS externo -->
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+<header>
+  <h1>Site de Apostas Vermelho</h1>
+</header>
+
+<main>
+  <section class="search-bar" role="search">
+    <input type="search" id="searchInput" placeholder="Pesquisar apostas, jogadores..." aria-label="Barra de pesquisa" />
+    <button id="searchBtn" aria-label="Buscar">Buscar</button>
+  </section>
+
+  <section class="bets-section">
+    <h2>Tipos de Apostas</h2>
+    <div class="bet-types" id="betTypes">
+      <div class="bet-card" tabindex="0">
+        <h3>Esportes</h3>
+        <p>Apostas em jogos de futebol, basquete, tênis e muito mais.</p>
+      </div>
+      <div class="bet-card" tabindex="0">
+        <h3>Cassino</h3>
+        <p>Roleta, blackjack, slots e outros jogos de cassino.</p>
+      </div>
+      <div class="bet-card" tabindex="0">
+        <h3>E-Sports</h3>
+        <p>Aposte nos campeonatos de jogos eletrônicos mais populares.</p>
+      </div>
+      <div class="bet-card" tabindex="0">
+        <h3>Corridas</h3>
+        <p>Aposte em corridas de cavalos, carros e outros eventos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="big-wins-section" aria-live="polite">
+    <h2>Grandes Ganhos Recentes</h2>
+    <div class="big-wins-ticker" id="bigWinsTicker" aria-atomic="true" aria-relevant="additions"></div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2024 Site de Apostas Vermelho. Todos os direitos reservados.
+</footer>
+
+<!-- Link para o arquivo JavaScript externo -->
+<script src="script.js"></script>
+
+</body>
+</html>
